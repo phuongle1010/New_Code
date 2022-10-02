@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <test verbose="2" preserve-order="true" name="D:/Automation Selenium Webdriver/Hybrid_Framework">-->
+    <parameter name="url" value="https://demo.nopcommerce.com/"/>
+    <test name="Run on Chrome">
+        <parameter name="browsers" value="chrome"/>
+        <classes>
+            <class name="Testcases.nopCommerce.Register">
+<!--                <methods>-->
+<!--                    <include name="Register"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
